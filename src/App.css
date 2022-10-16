@@ -1,0 +1,70 @@
+.card{
+  padding: 20px;
+  color: black;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 210px;
+  height: 100%;
+  transition: all .2s ease-in-out;
+}
+
+.card:hover {
+background: gray;
+color: white;
+transform: scale(1.1);
+z-index: 1;
+}
+
+.movie-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.genre-box{
+ font-size: 12px;
+ font-weight: bold;
+}
+
+
+.column{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.input-group-prepend{
+ margin-right: 10px;
+}
+#dropdown-menu-align-right{
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.movie-dashboard-row{
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.box{
+  height: 100%;
+  padding: 30px
+}
+
+
+body {
+  margin: 0px;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+}
+
+.App {
+  height: 100%;
+}
+
