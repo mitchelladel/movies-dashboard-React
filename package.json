@@ -1,0 +1,66 @@
+{
+  "name": "movies-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "proxy": "https://api.tvmaze.com",
+  "dependencies": {
+    "@babel/preset-flow": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.65",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.2",
+    "jest": "^27.5.1",
+    "jest-watch-typeahead": "^2.2.0",
+    "jquery": "^3.6.1",
+    "mobx": "^6.3.12",
+    "mobx-react": "^7.2.1",
+    "popper.js": "^1.16.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "babel-jest": "^29.2.0"
+  }
+}
